@@ -35,6 +35,9 @@ greet("sergeo");
 function executer(fn) {
   fn();
 }
+executer(()=>{
+  console.log("rappel execute !);
+              });
 
 function appliquer(fn, val) {
   return fn(val);
